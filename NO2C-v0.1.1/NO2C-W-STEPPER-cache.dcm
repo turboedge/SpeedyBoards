@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP DRV8825
-D Connector, double row, 02x08
-K connector
-$ENDCMP
-#
-#End Doc Library
