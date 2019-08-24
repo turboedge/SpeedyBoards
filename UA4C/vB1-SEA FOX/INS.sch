@@ -1,0 +1,1531 @@
+EESchema Schematic File Version 4
+LIBS:Underdog-cache
+EELAYER 26 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 2 5
+Title "UA4C"
+Date "2019-02-02"
+Rev "B1 Sea Fox"
+Comp "WTMtronics"
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Device:C C14
+U 1 1 5A77CAEC
+P 4300 1400
+F 0 "C14" H 4325 1500 50  0000 L CNN
+F 1 "u1" H 4325 1300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4338 1250 50  0001 C CNN
+F 3 "" H 4300 1400 50  0000 C CNN
+	1    4300 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C15
+U 1 1 5A77CAF3
+P 5100 1400
+F 0 "C15" H 5125 1500 50  0000 L CNN
+F 1 "u22" H 5125 1300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5138 1250 50  0001 C CNN
+F 3 "" H 5100 1400 50  0000 C CNN
+	1    5100 1400
+	1    0    0    -1  
+$EndComp
+Text Notes 3600 1450 0    79   ~ 0
+Throttle\nPosition
+Text HLabel 4000 1050 0    60   Input ~ 0
+TPS-IN
+Text HLabel 5350 1050 2    60   Output ~ 0
+TPS-CPU
+$Comp
+L Device:C C19
+U 1 1 5A77CB03
+P 1750 3500
+F 0 "C19" H 1775 3600 50  0000 L CNN
+F 1 "u1" H 1775 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1788 3350 50  0001 C CNN
+F 3 "" H 1750 3500 50  0000 C CNN
+	1    1750 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C20
+U 1 1 5A77CB0A
+P 2550 3500
+F 0 "C20" H 2575 3600 50  0000 L CNN
+F 1 "u22" H 2575 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2588 3350 50  0001 C CNN
+F 3 "" H 2550 3500 50  0000 C CNN
+	1    2550 3500
+	1    0    0    -1  
+$EndComp
+Text Notes 3600 3550 0    79   ~ 0
+Inlet Air\nTemp
+Text HLabel 4000 3150 0    60   Input ~ 0
+IAT-IN
+Text HLabel 5350 3150 2    60   Output ~ 0
+IAT-CPU
+$Comp
+L Device:C C22
+U 1 1 5A77CB1A
+P 4300 3500
+F 0 "C22" H 4325 3600 50  0000 L CNN
+F 1 "u1" H 4325 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4338 3350 50  0001 C CNN
+F 3 "" H 4300 3500 50  0000 C CNN
+	1    4300 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C23
+U 1 1 5A77CB21
+P 5100 3500
+F 0 "C23" H 5125 3600 50  0000 L CNN
+F 1 "u22" H 5125 3400 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5138 3350 50  0001 C CNN
+F 3 "" H 5100 3500 50  0000 C CNN
+	1    5100 3500
+	1    0    0    -1  
+$EndComp
+Text Notes 1050 3550 0    79   ~ 0
+Coolant\nTemp
+Text HLabel 2800 3150 2    60   Output ~ 0
+CLT-CPU
+$Comp
+L Device:R R15
+U 1 1 5A77CB30
+P 1750 3000
+F 0 "R15" V 1830 3000 50  0000 C CNN
+F 1 "2k49" V 1750 3000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 1680 3000 50  0001 C CNN
+F 3 "" H 1750 3000 50  0000 C CNN
+	1    1750 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R19
+U 1 1 5A77CB37
+P 4300 3000
+F 0 "R19" V 4380 3000 50  0000 C CNN
+F 1 "2k49" V 4300 3000 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 4230 3000 50  0001 C CNN
+F 3 "" H 4300 3000 50  0000 C CNN
+	1    4300 3000
+	1    0    0    -1  
+$EndComp
+Text HLabel 1450 3150 0    60   Input ~ 0
+CLT-IN
+$Comp
+L Device:R R20
+U 1 1 5A77CBA6
+P 4800 3150
+F 0 "R20" V 4880 3150 50  0000 C CNN
+F 1 "470" V 4800 3150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 4730 3150 50  0001 C CNN
+F 3 "" H 4800 3150 50  0001 C CNN
+	1    4800 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R16
+U 1 1 5A77CBAD
+P 2250 3150
+F 0 "R16" V 2330 3150 50  0000 C CNN
+F 1 "470" V 2250 3150 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 2180 3150 50  0001 C CNN
+F 3 "" H 2250 3150 50  0001 C CNN
+	1    2250 3150
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R13
+U 1 1 5A77CBB4
+P 4800 1050
+F 0 "R13" V 4880 1050 50  0000 C CNN
+F 1 "470" V 4800 1050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 4730 1050 50  0001 C CNN
+F 3 "" H 4800 1050 50  0001 C CNN
+	1    4800 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky_x2_Serial_AKC D7
+U 1 1 5A77CBBB
+P 5600 1550
+F 0 "D7" H 5650 1450 50  0000 C CNN
+F 1 "BAT54S" H 5600 1650 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5600 1550 50  0001 C CNN
+F 3 "" H 5600 1550 50  0001 C CNN
+	1    5600 1550
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR024
+U 1 1 5A77CBC2
+P 5900 1350
+F 0 "#PWR024" H 5900 1200 50  0001 C CNN
+F 1 "+5V" H 5900 1490 50  0000 C CNN
+F 2 "" H 5900 1350 50  0000 C CNN
+F 3 "" H 5900 1350 50  0000 C CNN
+	1    5900 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky_x2_Serial_AKC D8
+U 1 1 5A77CBC8
+P 3050 3650
+F 0 "D8" H 3100 3550 50  0000 C CNN
+F 1 "BAT54S" H 3050 3750 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3050 3650 50  0001 C CNN
+F 3 "" H 3050 3650 50  0001 C CNN
+	1    3050 3650
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR043
+U 1 1 5A77CBCF
+P 3350 3450
+F 0 "#PWR043" H 3350 3300 50  0001 C CNN
+F 1 "+5V" H 3350 3590 50  0000 C CNN
+F 2 "" H 3350 3450 50  0000 C CNN
+F 3 "" H 3350 3450 50  0000 C CNN
+	1    3350 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Schottky_x2_Serial_AKC D9
+U 1 1 5A77CBD5
+P 5600 3650
+F 0 "D9" H 5650 3550 50  0000 C CNN
+F 1 "BAT54S" H 5600 3750 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5600 3650 50  0001 C CNN
+F 3 "" H 5600 3650 50  0001 C CNN
+	1    5600 3650
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR044
+U 1 1 5A77CBDC
+P 5900 3450
+F 0 "#PWR044" H 5900 3300 50  0001 C CNN
+F 1 "+5V" H 5900 3590 50  0000 C CNN
+F 2 "" H 5900 3450 50  0000 C CNN
+F 3 "" H 5900 3450 50  0000 C CNN
+	1    5900 3450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 1550 4300 1550
+Wire Wire Line
+	4000 1050 4300 1050
+Wire Wire Line
+	4950 1050 5100 1050
+Wire Wire Line
+	4300 1050 4300 1250
+Connection ~ 4300 1050
+Connection ~ 5100 1050
+Wire Wire Line
+	1600 3650 1750 3650
+Wire Wire Line
+	1450 3150 1750 3150
+Wire Wire Line
+	2400 3150 2550 3150
+Wire Wire Line
+	1750 3150 1750 3350
+Connection ~ 1750 3150
+Connection ~ 2550 3150
+Wire Wire Line
+	4150 3650 4300 3650
+Wire Wire Line
+	4000 3150 4300 3150
+Wire Wire Line
+	4950 3150 5100 3150
+Wire Wire Line
+	4300 3150 4300 3350
+Connection ~ 4300 3150
+Connection ~ 5100 3150
+Connection ~ 5100 1200
+Wire Wire Line
+	5100 1050 5100 1200
+Connection ~ 4300 1550
+Connection ~ 5100 1550
+Wire Wire Line
+	5600 1350 5600 1200
+Wire Wire Line
+	5600 1200 5100 1200
+Wire Wire Line
+	5900 1350 5900 1550
+Wire Wire Line
+	2550 3150 2550 3300
+Connection ~ 1750 3650
+Wire Wire Line
+	3050 3450 3050 3300
+Wire Wire Line
+	3050 3300 2550 3300
+Wire Wire Line
+	3350 3450 3350 3650
+Connection ~ 2550 3650
+Connection ~ 2550 3300
+Wire Wire Line
+	5100 3150 5100 3300
+Connection ~ 4300 3650
+Connection ~ 5100 3650
+Wire Wire Line
+	5600 3450 5600 3300
+Wire Wire Line
+	5600 3300 5100 3300
+Wire Wire Line
+	5900 3450 5900 3650
+Connection ~ 5100 3300
+Text Notes 1050 2500 0    79   ~ 0
+Spare\nAnalog 1
+Text HLabel 1450 2100 0    60   Input ~ 0
+INP1-IN
+Text HLabel 2800 2100 2    60   Output ~ 0
+INP1-CPU
+$Comp
+L Device:C C10
+U 1 1 5A77CC45
+P 1750 2450
+F 0 "C10" H 1775 2550 50  0000 L CNN
+F 1 "u1" H 1775 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1788 2300 50  0001 C CNN
+F 3 "" H 1750 2450 50  0000 C CNN
+	1    1750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C11
+U 1 1 5A77CC4C
+P 2550 2450
+F 0 "C11" H 2575 2550 50  0000 L CNN
+F 1 "u22" H 2575 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2588 2300 50  0001 C CNN
+F 3 "" H 2550 2450 50  0000 C CNN
+	1    2550 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R9
+U 1 1 5A77CC66
+P 2250 2100
+F 0 "R9" V 2330 2100 50  0000 C CNN
+F 1 "470" V 2250 2100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 2180 2100 50  0001 C CNN
+F 3 "" H 2250 2100 50  0001 C CNN
+	1    2250 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky_x2_Serial_AKC D6
+U 1 1 5A77CC6D
+P 3050 2600
+F 0 "D6" H 3100 2500 50  0000 C CNN
+F 1 "BAT54S" H 3050 2700 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3050 2600 50  0001 C CNN
+F 3 "" H 3050 2600 50  0001 C CNN
+	1    3050 2600
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR037
+U 1 1 5A77CC74
+P 3350 2400
+F 0 "#PWR037" H 3350 2250 50  0001 C CNN
+F 1 "+5V" H 3350 2540 50  0000 C CNN
+F 2 "" H 3350 2400 50  0000 C CNN
+F 3 "" H 3350 2400 50  0000 C CNN
+	1    3350 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2600 1750 2600
+Wire Wire Line
+	1450 2100 1750 2100
+Wire Wire Line
+	2400 2100 2550 2100
+Wire Wire Line
+	1750 2100 1750 2300
+Connection ~ 1750 2100
+Connection ~ 2550 2100
+Wire Wire Line
+	2550 2100 2550 2250
+Connection ~ 1750 2600
+Connection ~ 2550 2600
+Wire Wire Line
+	3050 2400 3050 2250
+Wire Wire Line
+	3050 2250 2550 2250
+Wire Wire Line
+	3350 2400 3350 2600
+Connection ~ 2550 2250
+Text Notes 3600 4400 0    79   ~ 0
+Launch
+Text HLabel 4000 4200 0    60   Input ~ 0
+LNCH-IN
+Text HLabel 5350 4200 2    60   Output ~ 0
+LNCH-CPU
+Text HLabel 6400 2450 3    60   Output ~ 0
+MAP-CPU
+$Comp
+L Device:C C17
+U 1 1 5A77D95E
+P 6550 2100
+F 0 "C17" H 6575 2200 50  0000 L CNN
+F 1 "u33" H 6575 2000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6588 1950 50  0001 C CNN
+F 3 "" H 6550 2100 50  0000 C CNN
+	1    6550 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C16
+U 1 1 5A77D965
+P 7000 1950
+F 0 "C16" H 7025 2050 50  0000 L CNN
+F 1 "u01" H 7025 1850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7038 1800 50  0001 C CNN
+F 3 "" H 7000 1950 50  0000 C CNN
+	1    7000 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C18
+U 1 1 5A77D96C
+P 7000 2200
+F 0 "C18" H 7025 2300 50  0000 L CNN
+F 1 "1u" H 7025 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7038 2050 50  0001 C CNN
+F 3 "" H 7000 2200 50  0000 C CNN
+	1    7000 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR034
+U 1 1 5A77D973
+P 7250 1950
+F 0 "#PWR034" H 7250 1800 50  0001 C CNN
+F 1 "+5V" H 7250 2090 50  0000 C CNN
+F 2 "" H 7250 1950 50  0000 C CNN
+F 3 "" H 7250 1950 50  0000 C CNN
+	1    7250 1950
+	0    1    1    0   
+$EndComp
+Text Notes 7100 3600 0    79   ~ 0
+Manifold\nAbs Pres
+$Comp
+L Underdog-rescue:DIL8-modules U3
+U 1 1 5A77D980
+P 7500 2550
+F 0 "U3" H 7500 2800 50  0000 C CNN
+F 1 "DIL8" V 7500 2550 50  0000 C CNN
+F 2 "Useful_Stuff:NXP_Pressure_Sensor_SSOP" H 7500 2550 50  0001 C CNN
+F 3 "" H 7500 2550 50  0000 C CNN
+	1    7500 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C21
+U 1 1 5A77D987
+P 6700 3100
+F 0 "C21" H 6725 3200 50  0000 L CNN
+F 1 "47p" H 6725 3000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6738 2950 50  0001 C CNN
+F 3 "" H 6700 3100 50  0001 C CNN
+	1    6700 3100
+	0    1    1    0   
+$EndComp
+NoConn ~ 7350 2200
+NoConn ~ 7450 2200
+NoConn ~ 7550 2200
+NoConn ~ 7650 2200
+NoConn ~ 7350 2900
+$Comp
+L Device:R R17
+U 1 1 5A77D993
+P 6550 2600
+F 0 "R17" V 6630 2600 50  0000 C CNN
+F 1 "470" V 6550 2600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 6480 2600 50  0001 C CNN
+F 3 "" H 6550 2600 50  0001 C CNN
+	1    6550 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 1950 6850 2200
+Connection ~ 7150 1950
+Connection ~ 7150 2200
+Connection ~ 6850 2200
+Wire Wire Line
+	7150 1950 7150 2200
+Wire Wire Line
+	7150 3050 7450 3050
+Wire Wire Line
+	7450 3050 7450 2900
+Wire Wire Line
+	7550 3100 7550 2900
+$Comp
+L Device:R R18
+U 1 1 5A77D9A3
+P 6700 2850
+F 0 "R18" V 6780 2850 50  0000 C CNN
+F 1 "51k" V 6700 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 6630 2850 50  0001 C CNN
+F 3 "" H 6700 2850 50  0001 C CNN
+	1    6700 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7650 2900 7650 3300
+Wire Wire Line
+	7650 3300 6550 3300
+Wire Wire Line
+	6550 3300 6550 3100
+Connection ~ 6550 3100
+Wire Wire Line
+	6400 2450 6550 2450
+Wire Wire Line
+	6550 2450 6550 2250
+Connection ~ 6550 2850
+Connection ~ 6550 1950
+Connection ~ 6850 3100
+Connection ~ 6850 2850
+Wire Wire Line
+	6850 3100 7550 3100
+Wire Wire Line
+	6450 1950 6550 1950
+Wire Wire Line
+	7250 1950 7150 1950
+$Comp
+L power:Earth #PWR033
+U 1 1 5ADE4958
+P 6450 1950
+F 0 "#PWR033" H 6450 1700 50  0001 C CNN
+F 1 "Earth" H 6450 1800 50  0001 C CNN
+F 2 "" H 6450 1950 50  0001 C CNN
+F 3 "" H 6450 1950 50  0001 C CNN
+	1    6450 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR046
+U 1 1 5ADE4AB1
+P 4150 3650
+F 0 "#PWR046" H 4150 3400 50  0001 C CNN
+F 1 "Earth" H 4150 3500 50  0001 C CNN
+F 2 "" H 4150 3650 50  0001 C CNN
+F 3 "" H 4150 3650 50  0001 C CNN
+	1    4150 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR045
+U 1 1 5ADE4B5E
+P 1600 3650
+F 0 "#PWR045" H 1600 3400 50  0001 C CNN
+F 1 "Earth" H 1600 3500 50  0001 C CNN
+F 2 "" H 1600 3650 50  0001 C CNN
+F 3 "" H 1600 3650 50  0001 C CNN
+	1    1600 3650
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR027
+U 1 1 5ADE4C0B
+P 4150 1550
+F 0 "#PWR027" H 4150 1300 50  0001 C CNN
+F 1 "Earth" H 4150 1400 50  0001 C CNN
+F 2 "" H 4150 1550 50  0001 C CNN
+F 3 "" H 4150 1550 50  0001 C CNN
+	1    4150 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L power:Earth #PWR039
+U 1 1 5ADE4CB8
+P 1600 2600
+F 0 "#PWR039" H 1600 2350 50  0001 C CNN
+F 1 "Earth" H 1600 2450 50  0001 C CNN
+F 2 "" H 1600 2600 50  0001 C CNN
+F 3 "" H 1600 2600 50  0001 C CNN
+	1    1600 2600
+	0    1    1    0   
+$EndComp
+Text HLabel 8000 2450 3    60   Output ~ 0
+BARO-CPU
+$Comp
+L Device:C C7
+U 1 1 5ADE84E4
+P 8150 2100
+F 0 "C7" H 8175 2200 50  0000 L CNN
+F 1 "u33" H 8175 2000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8188 1950 50  0001 C CNN
+F 3 "" H 8150 2100 50  0000 C CNN
+	1    8150 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C6
+U 1 1 5ADE84EA
+P 8600 1950
+F 0 "C6" H 8625 2050 50  0000 L CNN
+F 1 "u01" H 8625 1850 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8638 1800 50  0001 C CNN
+F 3 "" H 8600 1950 50  0000 C CNN
+	1    8600 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C C8
+U 1 1 5ADE84F0
+P 8600 2200
+F 0 "C8" H 8625 2300 50  0000 L CNN
+F 1 "1u" H 8625 2100 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8638 2050 50  0001 C CNN
+F 3 "" H 8600 2200 50  0000 C CNN
+	1    8600 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR036
+U 1 1 5ADE84F6
+P 8850 1950
+F 0 "#PWR036" H 8850 1800 50  0001 C CNN
+F 1 "+5V" H 8850 2090 50  0000 C CNN
+F 2 "" H 8850 1950 50  0000 C CNN
+F 3 "" H 8850 1950 50  0000 C CNN
+	1    8850 1950
+	0    1    1    0   
+$EndComp
+Text Notes 8500 3600 0    79   ~ 0
+Baro\nPres
+$Comp
+L Underdog-rescue:DIL8-modules U1
+U 1 1 5ADE84FD
+P 9100 2550
+F 0 "U1" H 9100 2800 50  0000 C CNN
+F 1 "DIL8" V 9100 2550 50  0000 C CNN
+F 2 "Useful_Stuff:NXP_Pressure_Sensor_SSOP" H 9100 2550 50  0001 C CNN
+F 3 "" H 9100 2550 50  0000 C CNN
+	1    9100 2550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C13
+U 1 1 5ADE8503
+P 8300 3100
+F 0 "C13" H 8325 3200 50  0000 L CNN
+F 1 "47p" H 8325 3000 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8338 2950 50  0001 C CNN
+F 3 "" H 8300 3100 50  0001 C CNN
+	1    8300 3100
+	0    1    1    0   
+$EndComp
+NoConn ~ 8950 2200
+NoConn ~ 9050 2200
+NoConn ~ 9150 2200
+NoConn ~ 9250 2200
+NoConn ~ 8950 2900
+$Comp
+L Device:R R10
+U 1 1 5ADE850E
+P 8150 2600
+F 0 "R10" V 8230 2600 50  0000 C CNN
+F 1 "470" V 8150 2600 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 8080 2600 50  0001 C CNN
+F 3 "" H 8150 2600 50  0001 C CNN
+	1    8150 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8450 1950 8450 2200
+Connection ~ 8750 1950
+Connection ~ 8750 2200
+Connection ~ 8450 2200
+Wire Wire Line
+	8750 1950 8750 2200
+Wire Wire Line
+	8750 3050 9050 3050
+Wire Wire Line
+	9050 3050 9050 2900
+Wire Wire Line
+	9150 3100 9150 2900
+$Comp
+L Device:R R11
+U 1 1 5ADE851D
+P 8300 2850
+F 0 "R11" V 8380 2850 50  0000 C CNN
+F 1 "51k" V 8300 2850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 8230 2850 50  0001 C CNN
+F 3 "" H 8300 2850 50  0001 C CNN
+	1    8300 2850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	9250 2900 9250 3300
+Wire Wire Line
+	9250 3300 8150 3300
+Wire Wire Line
+	8150 3300 8150 3100
+Connection ~ 8150 3100
+Wire Wire Line
+	8000 2450 8150 2450
+Wire Wire Line
+	8150 2450 8150 2250
+Connection ~ 8150 2850
+Connection ~ 8150 1950
+Connection ~ 8450 3100
+Connection ~ 8450 2850
+Wire Wire Line
+	8450 3100 9150 3100
+Wire Wire Line
+	8050 1950 8150 1950
+Wire Wire Line
+	8850 1950 8750 1950
+$Comp
+L power:Earth #PWR035
+U 1 1 5ADE8530
+P 8050 1950
+F 0 "#PWR035" H 8050 1700 50  0001 C CNN
+F 1 "Earth" H 8050 1800 50  0001 C CNN
+F 2 "" H 8050 1950 50  0001 C CNN
+F 3 "" H 8050 1950 50  0001 C CNN
+	1    8050 1950
+	0    1    1    0   
+$EndComp
+Text Notes 3600 2500 0    79   ~ 0
+Spare\nAnalog 2
+Text HLabel 4000 2100 0    60   Input ~ 0
+INP2-IN
+Text HLabel 5350 2100 2    60   Output ~ 0
+INP2-CPU
+$Comp
+L Device:C C9
+U 1 1 5ADE889D
+P 4300 2450
+F 0 "C9" H 4325 2550 50  0000 L CNN
+F 1 "u1" H 4325 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4338 2300 50  0001 C CNN
+F 3 "" H 4300 2450 50  0000 C CNN
+	1    4300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C12
+U 1 1 5ADE88A3
+P 5100 2450
+F 0 "C12" H 5125 2550 50  0000 L CNN
+F 1 "u22" H 5125 2350 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5138 2300 50  0001 C CNN
+F 3 "" H 5100 2450 50  0000 C CNN
+	1    5100 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R8
+U 1 1 5ADE88B5
+P 4800 2100
+F 0 "R8" V 4880 2100 50  0000 C CNN
+F 1 "470" V 4800 2100 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 4730 2100 50  0001 C CNN
+F 3 "" H 4800 2100 50  0001 C CNN
+	1    4800 2100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky_x2_Serial_AKC D4
+U 1 1 5ADE88BB
+P 5600 2600
+F 0 "D4" H 5650 2500 50  0000 C CNN
+F 1 "BAT54S" H 5600 2700 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5600 2600 50  0001 C CNN
+F 3 "" H 5600 2600 50  0001 C CNN
+	1    5600 2600
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR038
+U 1 1 5ADE88C1
+P 5900 2400
+F 0 "#PWR038" H 5900 2250 50  0001 C CNN
+F 1 "+5V" H 5900 2540 50  0000 C CNN
+F 2 "" H 5900 2400 50  0000 C CNN
+F 3 "" H 5900 2400 50  0000 C CNN
+	1    5900 2400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 2600 4300 2600
+Wire Wire Line
+	4000 2100 4300 2100
+Wire Wire Line
+	4950 2100 5100 2100
+Wire Wire Line
+	4300 2100 4300 2300
+Connection ~ 4300 2100
+Connection ~ 5100 2100
+Wire Wire Line
+	5100 2100 5100 2250
+Connection ~ 4300 2600
+Connection ~ 5100 2600
+Wire Wire Line
+	5600 2400 5600 2250
+Wire Wire Line
+	5600 2250 5100 2250
+Wire Wire Line
+	5900 2400 5900 2600
+Connection ~ 5100 2250
+$Comp
+L power:Earth #PWR040
+U 1 1 5ADE88DA
+P 4150 2600
+F 0 "#PWR040" H 4150 2350 50  0001 C CNN
+F 1 "Earth" H 4150 2450 50  0001 C CNN
+F 2 "" H 4150 2600 50  0001 C CNN
+F 3 "" H 4150 2600 50  0001 C CNN
+	1    4150 2600
+	0    1    1    0   
+$EndComp
+Text Notes 1050 4400 0    79   ~ 0
+Flex Fuel
+Text HLabel 1450 4200 0    60   Input ~ 0
+FLEX-IN
+Text HLabel 2800 4200 2    60   Output ~ 0
+FLEX-CPU
+$Comp
+L Device:R R12
+U 1 1 5ADE8BD5
+P 1750 4050
+F 0 "R12" V 1830 4050 50  0000 C CNN
+F 1 "2k49" V 1750 4050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 1680 4050 50  0001 C CNN
+F 3 "" H 1750 4050 50  0000 C CNN
+	1    1750 4050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR047
+U 1 1 5ADE8BDB
+P 1450 3900
+F 0 "#PWR047" H 1450 3750 50  0001 C CNN
+F 1 "+5V" H 1450 4040 50  0000 C CNN
+F 2 "" H 1450 3900 50  0000 C CNN
+F 3 "" H 1450 3900 50  0000 C CNN
+	1    1450 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R37
+U 1 1 5ADE8BE1
+P 2250 4200
+F 0 "R37" V 2330 4200 50  0000 C CNN
+F 1 "470" V 2250 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 2180 4200 50  0001 C CNN
+F 3 "" H 2250 4200 50  0001 C CNN
+	1    2250 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky_x2_Serial_AKC D5
+U 1 1 5ADE8BE7
+P 2550 4500
+F 0 "D5" H 2600 4400 50  0000 C CNN
+F 1 "BAT54S" H 2550 4600 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2550 4500 50  0001 C CNN
+F 3 "" H 2550 4500 50  0001 C CNN
+	1    2550 4500
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR051
+U 1 1 5ADE8BED
+P 3350 4500
+F 0 "#PWR051" H 3350 4350 50  0001 C CNN
+F 1 "+5V" H 3350 4640 50  0000 C CNN
+F 2 "" H 3350 4500 50  0000 C CNN
+F 3 "" H 3350 4500 50  0000 C CNN
+	1    3350 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 4500 2250 4500
+Wire Wire Line
+	1450 4200 1750 4200
+Wire Wire Line
+	2400 4200 2550 4200
+Connection ~ 1750 4200
+Connection ~ 2550 4200
+Wire Wire Line
+	3350 4500 2850 4500
+$Comp
+L power:Earth #PWR050
+U 1 1 5ADE8C01
+P 1600 4500
+F 0 "#PWR050" H 1600 4250 50  0001 C CNN
+F 1 "Earth" H 1600 4350 50  0001 C CNN
+F 2 "" H 1600 4500 50  0001 C CNN
+F 3 "" H 1600 4500 50  0001 C CNN
+	1    1600 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1450 3900 1750 3900
+Wire Wire Line
+	2550 4300 2550 4200
+$Comp
+L Device:C C2
+U 1 1 5ADEC6FD
+P 1750 1400
+F 0 "C2" H 1775 1500 50  0000 L CNN
+F 1 "u1" H 1775 1300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1788 1250 50  0001 C CNN
+F 3 "" H 1750 1400 50  0000 C CNN
+	1    1750 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C3
+U 1 1 5ADEC704
+P 2550 1400
+F 0 "C3" H 2575 1500 50  0000 L CNN
+F 1 "u22" H 2575 1300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2588 1250 50  0001 C CNN
+F 3 "" H 2550 1400 50  0000 C CNN
+	1    2550 1400
+	1    0    0    -1  
+$EndComp
+Text Notes 1050 1450 0    79   ~ 0
+Battery\nReference
+$Comp
+L power:Earth #PWR026
+U 1 1 5ADEC70C
+P 1600 1550
+F 0 "#PWR026" H 1600 1300 50  0001 C CNN
+F 1 "Earth" H 1600 1400 50  0001 C CNN
+F 2 "" H 1600 1550 50  0000 C CNN
+F 3 "" H 1600 1550 50  0000 C CNN
+	1    1600 1550
+	0    1    1    0   
+$EndComp
+Text HLabel 2800 1050 2    60   Output ~ 0
+BRV-CPU
+$Comp
+L Device:R R2
+U 1 1 5ADEC713
+P 1750 900
+F 0 "R2" V 1830 900 50  0000 C CNN
+F 1 "3k9" V 1750 900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 1680 900 50  0001 C CNN
+F 3 "" H 1750 900 50  0000 C CNN
+	1    1750 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR021
+U 1 1 5ADEC71A
+P 1450 750
+F 0 "#PWR021" H 1450 600 50  0001 C CNN
+F 1 "+12V" H 1450 890 50  0000 C CNN
+F 2 "" H 1450 750 50  0000 C CNN
+F 3 "" H 1450 750 50  0000 C CNN
+	1    1450 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:Earth #PWR022
+U 1 1 5ADEC720
+P 2150 750
+F 0 "#PWR022" H 2150 500 50  0001 C CNN
+F 1 "Earth" H 2150 600 50  0001 C CNN
+F 2 "" H 2150 750 50  0000 C CNN
+F 3 "" H 2150 750 50  0000 C CNN
+	1    2150 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R3
+U 1 1 5ADEC726
+P 2000 900
+F 0 "R3" V 2080 900 50  0000 C CNN
+F 1 "1k" V 2000 900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 1930 900 50  0001 C CNN
+F 3 "" H 2000 900 50  0000 C CNN
+	1    2000 900 
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R4
+U 1 1 5ADEC72D
+P 2250 1050
+F 0 "R4" V 2330 1050 50  0000 C CNN
+F 1 "470r" V 2250 1050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 2180 1050 50  0001 C CNN
+F 3 "" H 2250 1050 50  0001 C CNN
+	1    2250 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky_x2_Serial_AKC D2
+U 1 1 5ADEC734
+P 3050 1550
+F 0 "D2" H 3100 1450 50  0000 C CNN
+F 1 "BAT54S" H 3050 1650 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 3050 1550 50  0001 C CNN
+F 3 "" H 3050 1550 50  0001 C CNN
+	1    3050 1550
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR023
+U 1 1 5ADEC73B
+P 3350 1350
+F 0 "#PWR023" H 3350 1200 50  0001 C CNN
+F 1 "+5V" H 3350 1490 50  0000 C CNN
+F 2 "" H 3350 1350 50  0000 C CNN
+F 3 "" H 3350 1350 50  0000 C CNN
+	1    3350 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 1550 1750 1550
+Wire Wire Line
+	1750 1050 2000 1050
+Wire Wire Line
+	2400 1050 2550 1050
+Wire Wire Line
+	1750 1050 1750 1250
+Connection ~ 1750 1050
+Wire Wire Line
+	2550 1050 2550 1200
+Connection ~ 2550 1050
+Wire Wire Line
+	1450 750  1750 750 
+Connection ~ 2000 1050
+Wire Wire Line
+	2000 750  2150 750 
+Connection ~ 1750 1550
+Wire Wire Line
+	3050 1350 3050 1200
+Wire Wire Line
+	3050 1200 2550 1200
+Wire Wire Line
+	3350 1350 3350 1550
+Connection ~ 2550 1550
+Connection ~ 2550 1200
+$Comp
+L Device:R R14
+U 1 1 5ADED27E
+P 4450 4050
+F 0 "R14" V 4530 4050 50  0000 C CNN
+F 1 "2k7" V 4450 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4380 4050 50  0001 C CNN
+F 3 "" H 4450 4050 50  0000 C CNN
+	1    4450 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR048
+U 1 1 5ADED284
+P 4000 3900
+F 0 "#PWR048" H 4000 3750 50  0001 C CNN
+F 1 "+5V" H 4000 4040 50  0000 C CNN
+F 2 "" H 4000 3900 50  0000 C CNN
+F 3 "" H 4000 3900 50  0000 C CNN
+	1    4000 3900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R38
+U 1 1 5ADED28A
+P 4800 4200
+F 0 "R38" V 4880 4200 50  0000 C CNN
+F 1 "470" V 4800 4200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 4730 4200 50  0001 C CNN
+F 3 "" H 4800 4200 50  0001 C CNN
+	1    4800 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky_x2_Serial_AKC D14
+U 1 1 5ADED290
+P 5100 4500
+F 0 "D14" H 5150 4400 50  0000 C CNN
+F 1 "BAT54S" H 5100 4600 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5100 4500 50  0001 C CNN
+F 3 "" H 5100 4500 50  0001 C CNN
+	1    5100 4500
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR053
+U 1 1 5ADED296
+P 5900 4500
+F 0 "#PWR053" H 5900 4350 50  0001 C CNN
+F 1 "+5V" H 5900 4640 50  0000 C CNN
+F 2 "" H 5900 4500 50  0000 C CNN
+F 3 "" H 5900 4500 50  0000 C CNN
+	1    5900 4500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4500 4800 4500
+Wire Wire Line
+	4000 4200 4600 4200
+Wire Wire Line
+	4950 4200 5100 4200
+Connection ~ 4600 4200
+Connection ~ 5100 4200
+Wire Wire Line
+	5900 4500 5400 4500
+$Comp
+L power:Earth #PWR052
+U 1 1 5ADED2A2
+P 4150 4500
+F 0 "#PWR052" H 4150 4250 50  0001 C CNN
+F 1 "Earth" H 4150 4350 50  0001 C CNN
+F 2 "" H 4150 4500 50  0001 C CNN
+F 3 "" H 4150 4500 50  0001 C CNN
+	1    4150 4500
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4000 3900 4050 3900
+Wire Wire Line
+	5100 4300 5100 4200
+$Comp
+L Underdog-rescue:SolderJumper_3_Open-Jumper1 JP9
+U 1 1 5ADED80C
+P 4250 3900
+F 0 "JP9" H 4150 3800 50  0000 C CNN
+F 1 "PULLUPDWN" H 4250 4010 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 4250 3900 50  0001 C CNN
+F 3 "" H 4250 3900 50  0001 C CNN
+	1    4250 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 4200 4600 4050
+Wire Wire Line
+	4250 4050 4300 4050
+$Comp
+L power:Earth #PWR049
+U 1 1 5ADEDD89
+P 4500 3900
+F 0 "#PWR049" H 4500 3650 50  0001 C CNN
+F 1 "Earth" H 4500 3750 50  0001 C CNN
+F 2 "" H 4500 3900 50  0001 C CNN
+F 3 "" H 4500 3900 50  0001 C CNN
+	1    4500 3900
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 3900 4450 3900
+$Comp
+L Device:R R7
+U 1 1 5ADEE0AC
+P 4450 1950
+F 0 "R7" V 4530 1950 50  0000 C CNN
+F 1 "2k49" V 4450 1950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 4380 1950 50  0001 C CNN
+F 3 "" H 4450 1950 50  0000 C CNN
+	1    4450 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR031
+U 1 1 5ADEE0B2
+P 4000 1800
+F 0 "#PWR031" H 4000 1650 50  0001 C CNN
+F 1 "+5V" H 4000 1940 50  0000 C CNN
+F 2 "" H 4000 1800 50  0000 C CNN
+F 3 "" H 4000 1800 50  0000 C CNN
+	1    4000 1800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4000 1800 4050 1800
+$Comp
+L Underdog-rescue:SolderJumper_3_Open-Jumper1 JP8
+U 1 1 5ADEE0B9
+P 4250 1800
+F 0 "JP8" H 4150 1700 50  0000 C CNN
+F 1 "PULLUPDWN" H 4250 1910 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 4250 1800 50  0001 C CNN
+F 3 "" H 4250 1800 50  0001 C CNN
+	1    4250 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4600 2100 4600 1950
+Wire Wire Line
+	4250 1950 4300 1950
+$Comp
+L power:Earth #PWR032
+U 1 1 5ADEE0C1
+P 4500 1800
+F 0 "#PWR032" H 4500 1550 50  0001 C CNN
+F 1 "Earth" H 4500 1650 50  0001 C CNN
+F 2 "" H 4500 1800 50  0001 C CNN
+F 3 "" H 4500 1800 50  0001 C CNN
+	1    4500 1800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4500 1800 4450 1800
+$Comp
+L Device:R R6
+U 1 1 5ADEE1E0
+P 1900 1950
+F 0 "R6" V 1980 1950 50  0000 C CNN
+F 1 "2k49" V 1900 1950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 1830 1950 50  0001 C CNN
+F 3 "" H 1900 1950 50  0000 C CNN
+	1    1900 1950
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+5V #PWR029
+U 1 1 5ADEE1E6
+P 1450 1800
+F 0 "#PWR029" H 1450 1650 50  0001 C CNN
+F 1 "+5V" H 1450 1940 50  0000 C CNN
+F 2 "" H 1450 1800 50  0000 C CNN
+F 3 "" H 1450 1800 50  0000 C CNN
+	1    1450 1800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1450 1800 1500 1800
+$Comp
+L Underdog-rescue:SolderJumper_3_Open-Jumper1 JP7
+U 1 1 5ADEE1ED
+P 1700 1800
+F 0 "JP7" H 1600 1700 50  0000 C CNN
+F 1 "PULLUPDWN" H 1700 1910 50  0000 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm_NumberLabels" H 1700 1800 50  0001 C CNN
+F 3 "" H 1700 1800 50  0001 C CNN
+	1    1700 1800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 2100 2050 1950
+Wire Wire Line
+	1700 1950 1750 1950
+$Comp
+L power:Earth #PWR030
+U 1 1 5ADEE1F5
+P 1950 1800
+F 0 "#PWR030" H 1950 1550 50  0001 C CNN
+F 1 "Earth" H 1950 1650 50  0001 C CNN
+F 2 "" H 1950 1800 50  0001 C CNN
+F 3 "" H 1950 1800 50  0001 C CNN
+	1    1950 1800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1950 1800 1900 1800
+Connection ~ 4600 2100
+Connection ~ 2050 2100
+$Comp
+L Device:C C4
+U 1 1 5ADF017F
+P 6900 1400
+F 0 "C4" H 6925 1500 50  0000 L CNN
+F 1 "u1" H 6925 1300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6938 1250 50  0001 C CNN
+F 3 "" H 6900 1400 50  0000 C CNN
+	1    6900 1400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C5
+U 1 1 5ADF0185
+P 7700 1400
+F 0 "C5" H 7725 1500 50  0000 L CNN
+F 1 "u22" H 7725 1300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7738 1250 50  0001 C CNN
+F 3 "" H 7700 1400 50  0000 C CNN
+	1    7700 1400
+	1    0    0    -1  
+$EndComp
+Text Notes 6300 1400 0    79   ~ 0
+Wide\nBand
+Text HLabel 6600 1050 0    60   Input ~ 0
+O2-IN
+Text HLabel 7950 1050 2    60   Output ~ 0
+O2-CPU
+$Comp
+L Device:R R5
+U 1 1 5ADF018E
+P 7400 1050
+F 0 "R5" V 7480 1050 50  0000 C CNN
+F 1 "470" V 7400 1050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 7330 1050 50  0001 C CNN
+F 3 "" H 7400 1050 50  0001 C CNN
+	1    7400 1050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky_x2_Serial_AKC D3
+U 1 1 5ADF0194
+P 8200 1550
+F 0 "D3" H 8250 1450 50  0000 C CNN
+F 1 "BAT54S" H 8200 1650 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 8200 1550 50  0001 C CNN
+F 3 "" H 8200 1550 50  0001 C CNN
+	1    8200 1550
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR025
+U 1 1 5ADF019A
+P 8500 1350
+F 0 "#PWR025" H 8500 1200 50  0001 C CNN
+F 1 "+5V" H 8500 1490 50  0000 C CNN
+F 2 "" H 8500 1350 50  0000 C CNN
+F 3 "" H 8500 1350 50  0000 C CNN
+	1    8500 1350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6750 1550 6900 1550
+Wire Wire Line
+	6600 1050 6900 1050
+Wire Wire Line
+	7550 1050 7700 1050
+Wire Wire Line
+	6900 1050 6900 1250
+Connection ~ 6900 1050
+Connection ~ 7700 1050
+Connection ~ 7700 1200
+Wire Wire Line
+	7700 1050 7700 1200
+Connection ~ 6900 1550
+Connection ~ 7700 1550
+Wire Wire Line
+	8200 1350 8200 1200
+Wire Wire Line
+	8200 1200 7700 1200
+Wire Wire Line
+	8500 1350 8500 1550
+$Comp
+L power:Earth #PWR028
+U 1 1 5ADF01AD
+P 6750 1550
+F 0 "#PWR028" H 6750 1300 50  0001 C CNN
+F 1 "Earth" H 6750 1400 50  0001 C CNN
+F 2 "" H 6750 1550 50  0001 C CNN
+F 3 "" H 6750 1550 50  0001 C CNN
+	1    6750 1550
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 1050 4650 1050
+Wire Wire Line
+	5100 1050 5350 1050
+Wire Wire Line
+	1750 3150 2100 3150
+Wire Wire Line
+	2550 3150 2800 3150
+Wire Wire Line
+	4300 3150 4650 3150
+Wire Wire Line
+	5100 3150 5350 3150
+Wire Wire Line
+	5100 1200 5100 1250
+Wire Wire Line
+	4300 1550 5100 1550
+Wire Wire Line
+	5100 1550 5300 1550
+Wire Wire Line
+	1750 3650 2550 3650
+Wire Wire Line
+	2550 3650 2750 3650
+Wire Wire Line
+	2550 3300 2550 3350
+Wire Wire Line
+	4300 3650 5100 3650
+Wire Wire Line
+	5100 3650 5300 3650
+Wire Wire Line
+	5100 3300 5100 3350
+Wire Wire Line
+	1750 2100 2050 2100
+Wire Wire Line
+	2550 2100 2800 2100
+Wire Wire Line
+	1750 2600 2550 2600
+Wire Wire Line
+	2550 2600 2750 2600
+Wire Wire Line
+	2550 2250 2550 2300
+Wire Wire Line
+	7150 2200 7150 3050
+Wire Wire Line
+	6850 2200 6850 2850
+Wire Wire Line
+	6550 3100 6550 2850
+Wire Wire Line
+	6550 2850 6550 2750
+Wire Wire Line
+	6550 1950 6850 1950
+Wire Wire Line
+	6850 2850 6850 3100
+Wire Wire Line
+	8750 2200 8750 3050
+Wire Wire Line
+	8450 2200 8450 2850
+Wire Wire Line
+	8150 3100 8150 2850
+Wire Wire Line
+	8150 2850 8150 2750
+Wire Wire Line
+	8150 1950 8450 1950
+Wire Wire Line
+	8450 2850 8450 3100
+Wire Wire Line
+	4300 2100 4600 2100
+Wire Wire Line
+	5100 2100 5350 2100
+Wire Wire Line
+	4300 2600 5100 2600
+Wire Wire Line
+	5100 2600 5300 2600
+Wire Wire Line
+	5100 2250 5100 2300
+Wire Wire Line
+	1750 4200 2100 4200
+Wire Wire Line
+	2550 4200 2800 4200
+Wire Wire Line
+	2550 1050 2800 1050
+Wire Wire Line
+	2000 1050 2100 1050
+Wire Wire Line
+	1750 1550 2550 1550
+Wire Wire Line
+	2550 1550 2750 1550
+Wire Wire Line
+	2550 1200 2550 1250
+Wire Wire Line
+	4600 4200 4650 4200
+Wire Wire Line
+	5100 4200 5350 4200
+Wire Wire Line
+	4600 2100 4650 2100
+Wire Wire Line
+	2050 2100 2100 2100
+Wire Wire Line
+	6900 1050 7250 1050
+Wire Wire Line
+	7700 1050 7950 1050
+Wire Wire Line
+	7700 1200 7700 1250
+Wire Wire Line
+	6900 1550 7700 1550
+Wire Wire Line
+	7700 1550 7900 1550
+$Comp
+L Underdog-rescue:Conn_01x01-conn-Underdog-rescue J1
+U 1 1 5B6CBD7B
+P 6550 3500
+AR Path="/5B6CBD7B" Ref="J1"  Part="1" 
+AR Path="/5A77C34D/5B6CBD7B" Ref="J1"  Part="1" 
+F 0 "J1" V 6423 3580 50  0000 L CNN
+F 1 "Conn_01x01" V 6514 3580 50  0000 L CNN
+F 2 "Wire_Pads:SolderWirePad_single_1mmDrill" H 6550 3500 50  0001 C CNN
+F 3 "~" H 6550 3500 50  0001 C CNN
+	1    6550 3500
+	0    1    1    0   
+$EndComp
+Connection ~ 6550 3300
+Text Notes 1050 5050 0    79   ~ 0
+Knock
+Text HLabel 1450 4850 0    60   Input ~ 0
+KNOCK-IN
+Text HLabel 2800 4850 2    60   Output ~ 0
+KNOCK-CPU
+$Comp
+L Device:R R64
+U 1 1 5B741C9B
+P 2250 4850
+F 0 "R64" V 2330 4850 50  0000 C CNN
+F 1 "470" V 2250 4850 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" V 2180 4850 50  0001 C CNN
+F 3 "" H 2250 4850 50  0001 C CNN
+	1    2250 4850
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:D_Schottky_x2_Serial_AKC D10
+U 1 1 5B741CA1
+P 2550 5150
+F 0 "D10" H 2600 5050 50  0000 C CNN
+F 1 "BAT54S" H 2550 5250 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 2550 5150 50  0001 C CNN
+F 3 "" H 2550 5150 50  0001 C CNN
+	1    2550 5150
+	1    0    0    1   
+$EndComp
+$Comp
+L power:+5V #PWR0101
+U 1 1 5B741CA7
+P 3350 5150
+F 0 "#PWR0101" H 3350 5000 50  0001 C CNN
+F 1 "+5V" H 3350 5290 50  0000 C CNN
+F 2 "" H 3350 5150 50  0000 C CNN
+F 3 "" H 3350 5150 50  0000 C CNN
+	1    3350 5150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 5150 2250 5150
+Wire Wire Line
+	2400 4850 2550 4850
+Connection ~ 2550 4850
+Wire Wire Line
+	3350 5150 2850 5150
+$Comp
+L power:Earth #PWR0102
+U 1 1 5B741CB3
+P 1600 5150
+F 0 "#PWR0102" H 1600 4900 50  0001 C CNN
+F 1 "Earth" H 1600 5000 50  0001 C CNN
+F 2 "" H 1600 5150 50  0001 C CNN
+F 3 "" H 1600 5150 50  0001 C CNN
+	1    1600 5150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2550 4950 2550 4850
+Wire Wire Line
+	2550 4850 2800 4850
+Wire Wire Line
+	1450 4850 2100 4850
+$Comp
+L Underdog-rescue:SolderJumper_2_Open-Jumper1 JP14
+U 1 1 5C563609
+P 3450 3000
+F 0 "JP14" H 3450 3080 50  0000 C CNN
+F 1 "SolderJumper_2_Open" H 3450 2900 50  0001 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_Pad1.0x1.5mm" H 3450 3000 50  0001 C CNN
+F 3 "" H 3450 3000 50  0001 C CNN
+	1    3450 3000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 2850 3450 2850
+Wire Wire Line
+	1750 2850 3450 2850
+Connection ~ 3450 2850
+Wire Wire Line
+	3450 3150 3450 3650
+Wire Wire Line
+	3450 3650 3350 3650
+Connection ~ 3350 3650
+$EndSCHEMATC
