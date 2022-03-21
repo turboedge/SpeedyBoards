@@ -1,0 +1,357 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr USLetter 11000 8500
+encoding utf-8
+Sheet 6 6
+Title "UA4C"
+Date "2021-01-30"
+Rev "C3"
+Comp "WTMtronics"
+Comment1 "White Fang"
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L IC_Automotive:MP6600 U4
+U 1 1 600A9F85
+P 5350 2450
+F 0 "U4" H 5375 2897 60  0000 C CNN
+F 1 "MP6600" H 5375 2791 60  0000 C CNN
+F 2 "Package_DFN_QFN:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm_ThermalVias" H 5550 2750 60  0001 C CNN
+F 3 "https://www.monolithicpower.com/en/documentview/productdocument/index/version/2/document_type/Datasheet/lang/en/sku/MP6600/" H 5550 2750 60  0001 C CNN
+F 4 "MP6600GR-Z" H 5350 2450 50  0001 C CNN "MPN"
+	1    5350 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 600B4B5D
+P 6000 2850
+AR Path="/5A77C34D/600B4B5D" Ref="C?"  Part="1" 
+AR Path="/600A52DC/600B4B5D" Ref="C32"  Part="1" 
+F 0 "C32" H 6025 2950 50  0000 L CNN
+F 1 "u1" H 6025 2750 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6038 2700 50  0001 C CNN
+F 3 "" H 6000 2850 50  0000 C CNN
+F 4 "CL21B104KBFNNNE" H 6000 2850 50  0001 C CNN "MPN"
+	1    6000 2850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 600B4B63
+P 6550 3250
+AR Path="/5A77C34D/600B4B63" Ref="C?"  Part="1" 
+AR Path="/600A52DC/600B4B63" Ref="C35"  Part="1" 
+F 0 "C35" H 6575 3350 50  0000 L CNN
+F 1 "1u" H 6575 3150 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6588 3100 50  0001 C CNN
+F 3 "" H 6550 3250 50  0000 C CNN
+F 4 "CL21B105KBFNNNE" H 6550 3250 50  0001 C CNN "MPN"
+	1    6550 3250
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 600B6069
+P 6250 2800
+AR Path="/5A77C34D/600B6069" Ref="C?"  Part="1" 
+AR Path="/600A52DC/600B6069" Ref="C34"  Part="1" 
+F 0 "C34" H 6275 2900 50  0000 L CNN
+F 1 "u22" H 6275 2700 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6288 2650 50  0001 C CNN
+F 3 "" H 6250 2800 50  0000 C CNN
+F 4 "CL21B224KBFNNNE" H 6250 2800 50  0001 C CNN "MPN"
+	1    6250 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 600B6788
+P 5950 3400
+AR Path="/5A77C34D/600B6788" Ref="C?"  Part="1" 
+AR Path="/600A52DC/600B6788" Ref="C1"  Part="1" 
+F 0 "C1" H 5975 3500 50  0000 L CNN
+F 1 "u1" H 5975 3300 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5988 3250 50  0001 C CNN
+F 3 "" H 5950 3400 50  0000 C CNN
+F 4 "CL21B104KBFNNNE" H 5950 3400 50  0001 C CNN "MPN"
+	1    5950 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 600B748E
+P 6200 3300
+AR Path="/5A77C34D/600B748E" Ref="C?"  Part="1" 
+AR Path="/600A52DC/600B748E" Ref="C33"  Part="1" 
+F 0 "C33" H 6225 3400 50  0000 L CNN
+F 1 "u1" H 6225 3200 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6238 3150 50  0001 C CNN
+F 3 "" H 6200 3300 50  0000 C CNN
+F 4 "CL21B104KBFNNNE" H 6200 3300 50  0001 C CNN "MPN"
+	1    6200 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5800 2800 5850 2800
+Wire Wire Line
+	5850 2800 5850 2700
+Wire Wire Line
+	5850 2700 6000 2700
+Wire Wire Line
+	5800 2900 5850 2900
+Wire Wire Line
+	5850 2900 5850 3000
+Wire Wire Line
+	5850 3000 6000 3000
+Wire Wire Line
+	5800 2700 5800 2650
+Wire Wire Line
+	5800 2650 6250 2650
+$Comp
+L power:Earth #PWR?
+U 1 1 600BBD3F
+P 6500 2950
+AR Path="/5A77C34D/600BBD3F" Ref="#PWR?"  Part="1" 
+AR Path="/600A52DC/600BBD3F" Ref="#PWR0115"  Part="1" 
+F 0 "#PWR0115" H 6500 2700 50  0001 C CNN
+F 1 "Earth" H 6500 2800 50  0001 C CNN
+F 2 "" H 6500 2950 50  0001 C CNN
+F 3 "" H 6500 2950 50  0001 C CNN
+	1    6500 2950
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5800 3250 5800 3150
+Connection ~ 5800 3250
+Wire Wire Line
+	5800 3150 6200 3150
+Connection ~ 5800 3150
+Wire Wire Line
+	5950 3250 5800 3250
+Wire Wire Line
+	6500 2950 6250 2950
+$Comp
+L power:Earth #PWR?
+U 1 1 600BF86E
+P 6250 3550
+AR Path="/5A77C34D/600BF86E" Ref="#PWR?"  Part="1" 
+AR Path="/600A52DC/600BF86E" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 6250 3300 50  0001 C CNN
+F 1 "Earth" H 6250 3400 50  0001 C CNN
+F 2 "" H 6250 3550 50  0001 C CNN
+F 3 "" H 6250 3550 50  0001 C CNN
+	1    6250 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5950 3550 6100 3550
+Wire Wire Line
+	6200 3450 6200 3550
+Connection ~ 6200 3550
+Wire Wire Line
+	6200 3550 6250 3550
+Wire Wire Line
+	5800 3000 5800 3050
+Wire Wire Line
+	5800 3050 6550 3050
+Wire Wire Line
+	6550 3050 6550 3100
+$Comp
+L power:+12V #PWR?
+U 1 1 600BEDFA
+P 5800 4200
+AR Path="/5ADEF5D8/600BEDFA" Ref="#PWR?"  Part="1" 
+AR Path="/600A52DC/600BEDFA" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 5800 4050 50  0001 C CNN
+F 1 "+12V" H 5800 4340 50  0000 C CNN
+F 2 "" H 5800 4200 50  0001 C CNN
+F 3 "" H 5800 4200 50  0001 C CNN
+	1    5800 4200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	5800 3250 5800 3750
+$Comp
+L Device:C C?
+U 1 1 600C1B3E
+P 5950 3750
+AR Path="/5A77C34D/600C1B3E" Ref="C?"  Part="1" 
+AR Path="/600A52DC/600C1B3E" Ref="C7"  Part="1" 
+F 0 "C7" H 5975 3850 50  0000 L CNN
+F 1 "1u" H 5975 3650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5988 3600 50  0001 C CNN
+F 3 "" H 5950 3750 50  0000 C CNN
+F 4 "CL21B105KBFNNNE" H 5950 3750 50  0001 C CNN "MPN"
+	1    5950 3750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5800 3750
+Wire Wire Line
+	5800 3750 5800 3950
+$Comp
+L Device:CP C17
+U 1 1 600C2D44
+P 5950 3950
+F 0 "C17" H 6050 4050 50  0000 C CNN
+F 1 "47u 50v" V 5800 3850 50  0000 C CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x5.4" H 5988 3800 50  0001 C CNN
+F 3 "https://datasheet.octopart.com/EEE-FT1H470AL-Panasonic-datasheet-147569663.pdf" H 5950 3950 50  0001 C CNN
+F 4 "EEE-FT1H470AL" V 5950 3950 50  0001 C CNN "MPN"
+	1    5950 3950
+	0    -1   -1   0   
+$EndComp
+Connection ~ 5800 3950
+Wire Wire Line
+	6100 3950 6100 3750
+Wire Wire Line
+	6100 3750 6100 3550
+Connection ~ 6100 3750
+Connection ~ 6100 3550
+Wire Wire Line
+	6100 3550 6200 3550
+Wire Wire Line
+	6550 4150 5800 4150
+Wire Wire Line
+	6550 3400 6550 4150
+Wire Wire Line
+	5800 3950 5800 4150
+Wire Wire Line
+	5800 4150 5800 4200
+Connection ~ 5800 4150
+$Comp
+L Device:R R?
+U 1 1 600C8C3D
+P 4600 3050
+AR Path="/5A77C34D/600C8C3D" Ref="R?"  Part="1" 
+AR Path="/600A52DC/600C8C3D" Ref="R75"  Part="1" 
+F 0 "R75" V 4680 3050 50  0000 C CNN
+F 1 "51k" V 4600 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4530 3050 50  0001 C CNN
+F 3 "" H 4600 3050 50  0001 C CNN
+F 4 "RK73H2ATTD5102F" H 4600 3050 50  0001 C CNN "MPN"
+	1    4600 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:Earth #PWR?
+U 1 1 600C8F46
+P 4350 3150
+AR Path="/5A77C34D/600C8F46" Ref="#PWR?"  Part="1" 
+AR Path="/600A52DC/600C8F46" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 4350 2900 50  0001 C CNN
+F 1 "Earth" H 4350 3000 50  0001 C CNN
+F 2 "" H 4350 3150 50  0001 C CNN
+F 3 "" H 4350 3150 50  0001 C CNN
+	1    4350 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4750 3050 4950 3050
+Wire Wire Line
+	4950 3050 4950 3100
+$Comp
+L Device:R R?
+U 1 1 600C9BCE
+P 4600 3250
+AR Path="/5A77C34D/600C9BCE" Ref="R?"  Part="1" 
+AR Path="/600A52DC/600C9BCE" Ref="R76"  Part="1" 
+F 0 "R76" V 4680 3250 50  0000 C CNN
+F 1 "220k" V 4600 3250 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4530 3250 50  0001 C CNN
+F 3 "" H 4600 3250 50  0001 C CNN
+F 4 "RK73H2ATTD2203F" H 4600 3250 50  0001 C CNN "MPN"
+	1    4600 3250
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4350 3150 4350 3050
+Wire Wire Line
+	4350 3050 4450 3050
+Wire Wire Line
+	4350 3150 4350 3250
+Wire Wire Line
+	4350 3250 4450 3250
+Connection ~ 4350 3150
+Wire Wire Line
+	4950 3200 4950 3250
+Wire Wire Line
+	4950 3250 4750 3250
+Wire Wire Line
+	4800 2550 4950 2550
+$Comp
+L power:Earth #PWR?
+U 1 1 600CD421
+P 5000 3750
+AR Path="/5A77C34D/600CD421" Ref="#PWR?"  Part="1" 
+AR Path="/600A52DC/600CD421" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 5000 3500 50  0001 C CNN
+F 1 "Earth" H 5000 3600 50  0001 C CNN
+F 2 "" H 5000 3750 50  0001 C CNN
+F 3 "" H 5000 3750 50  0001 C CNN
+	1    5000 3750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5000 3750 5150 3750
+Wire Wire Line
+	5650 3750 5650 3650
+Wire Wire Line
+	5550 3650 5550 3750
+Connection ~ 5550 3750
+Wire Wire Line
+	5550 3750 5650 3750
+Wire Wire Line
+	5450 3650 5450 3750
+Connection ~ 5450 3750
+Wire Wire Line
+	5450 3750 5550 3750
+Wire Wire Line
+	5350 3650 5350 3750
+Connection ~ 5350 3750
+Wire Wire Line
+	5350 3750 5450 3750
+Wire Wire Line
+	5250 3650 5250 3750
+Connection ~ 5250 3750
+Wire Wire Line
+	5250 3750 5350 3750
+Wire Wire Line
+	5150 3650 5150 3750
+Connection ~ 5150 3750
+Wire Wire Line
+	5150 3750 5250 3750
+NoConn ~ 4950 2750
+NoConn ~ 4950 2850
+NoConn ~ 4950 2950
+Text HLabel 5800 2250 2    60   Output ~ 0
+B1
+Text HLabel 5800 2350 2    60   Output ~ 0
+B2
+Text HLabel 5800 2450 2    60   Output ~ 0
+A2
+Text HLabel 5800 2550 2    60   Output ~ 0
+A1
+Text HLabel 4950 2250 0    60   Input ~ 0
+DIR
+Text HLabel 4950 2350 0    60   Input ~ 0
+STEP
+Text HLabel 4950 2450 0    60   Input ~ 0
+ENABLE
+$Comp
+L power:+5V #PWR?
+U 1 1 600CC721
+P 4800 2550
+AR Path="/5ADEF5D8/600CC721" Ref="#PWR?"  Part="1" 
+AR Path="/600A52DC/600CC721" Ref="#PWR0120"  Part="1" 
+F 0 "#PWR0120" H 4800 2400 50  0001 C CNN
+F 1 "+5V" H 4800 2690 50  0000 C CNN
+F 2 "" H 4800 2550 50  0000 C CNN
+F 3 "" H 4800 2550 50  0000 C CNN
+	1    4800 2550
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC
