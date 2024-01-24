@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Underdog-rescue")(type "Legacy")(uri "${KIPRJMOD}/UA4C-vC5-rescue.lib")(options "")(descr ""))
+)
