@@ -1,6 +1,6 @@
 # SpeedyBoards
 WTMtronics has developed several EMS PCBs designed to use the Speeduino firmware.
-The Speeduino code is available here[Speeduino](https://github.com/noisymime/speeduino), but the easiest way to load the code onto your ECU to use [SpeedyLoader](https://github.com/speeduino/SpeedyLoader).
+The Speeduino code is available here [Speeduino](https://github.com/noisymime/speeduino), but the easiest way to load the code onto your ECU to use [SpeedyLoader](https://github.com/speeduino/SpeedyLoader).
 ## Ocelot
 The latest ECU designed by WTMtronics builds on the UA4C that came before it, and in fact if compare the two side by side your will see many similarities. However there have been many improvements over the the previous model which are outlined in the list below.
 - Automotive connector
