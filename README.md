@@ -29,7 +29,7 @@ The Under Arduino Four Channel was deigned to be as small as possible wile still
 
 Latest version: C5
 
-*knock is current unsupported in the firmware
+*Knock is currently unsupported in the firmware
 ## NO2C
 The No Overhang Two Channel was designed to incorperate as many features as possible into a through-hole board that does not exceed the dimensions of the Arduino MEGA microcontroller it sits on top of. It is a 2+2 channel board that incorperates the features below.
 - Two injector channels
