@@ -2,7 +2,7 @@
 WTMtronics has developed several EMS PCBs designed to use the Speeduino firmware.
 The Speeduino code is available here [Speeduino](https://github.com/noisymime/speeduino), but the easiest way to load the code onto your ECU is to use [SpeedyLoader](https://github.com/speeduino/SpeedyLoader).
 ## Ocelot
-The latest ECU designed by WTMtronics builds on the UA4C that came before it, and in fact if you compare the two side by side you will see many similarities. However there have been many improvements over the the previous model which are outlined in the list below.
+The latest ECU designed by WTMtronics builds on the UA4C that came before it, and in fact if you compare the two side by side you will see many similarities. However there have been many improvements over the previous model which are outlined in the list below.
 - Automotive connector
 - Reduced size
 - Integrated microcontroller
@@ -16,17 +16,17 @@ The Ocelot uses the Silicon Labs CP2102N USB to UART controller chip. Most moder
 
 Latest version: A3 *First release
 ## UA4C
-The Under Arduino Four Channel was deigned to be as small as possible wile still using a standard off the shelf Arduino MEGA and Hammond extruded enclosure. This was achieved by using SMD components and placing the Arduino upside-down on top of the PCB. The unique stacking arrangement allows the unit to be particularly thin for a unit that still uses a separate Arduino MEGA. It is a 4+4 board that incorporates the follow features.
+The Under Arduino Four Channel was designed to be as small as possible wile still using a standard off the shelf Arduino MEGA and Hammond extruded enclosure. This was achieved by using SMD components and placing the Arduino upside-down on top of the PCB. The unique stacking arrangement allows the unit to be particularly thin for a unit that still uses a separate Arduino MEGA. It is a 4+4 board that incorporates the follow features.
 - Four injector channels
 - Four ignitor channels
 - Outputs for VVT, 2x PWM idle, boost, fuel pump, tachometer, and 2x fan
-- Four auxilary outputs
+- Four auxiliary outputs
 - Built in stepper idle control (versions C)
 - Two trigger inputs
 - Launch input
-- Two additional interupt input designated as flex and knock*
+- Two additional interrupt input designated as flex and knock*
 - Analog inputs for CLT, IAT, TPS, and O2
-- Two auxilary analog inputs
+- Two auxiliary analog inputs
 - MAP and baro sensor onboard
 - Two GPIO connections that breakout inside the case
 
@@ -34,7 +34,7 @@ Latest version: C5
 
 *Knock is currently unsupported in the firmware. Either input can be used for VSS.
 ## NO2C
-The No Overhang Two Channel was designed to incorperate as many features as possible into a through-hole board that does not exceed the dimensions of the Arduino MEGA microcontroller it sits on top of. It is a 2+2 channel board that incorperates the features below.
+The No Overhang Two Channel was designed to incorporate as many features as possible into a through-hole board that does not exceed the dimensions of the Arduino MEGA microcontroller it sits on top of. It is a 2+2 channel board that incorporates the features below.
 - Two injector channels
 - Two ignitor channels
 - Outputs for VVT PWM idle, boost, fuel pump, and tachometer
