@@ -15,6 +15,8 @@ The reset button was added as the only reset connection made to the microcontrol
 The Ocelot uses the Silicon Labs CP2102N USB to UART controller chip. Most modern computers will detect and automatically load a driver for the COM port. If you are not getting the COM port, then you can download drivers from their website [Silicon Labs Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
 
 Latest version: A3 *First release
+### Errata
+vA3: Labeling for trigger jumpers is reversed. The Secondary trigger jumpers are nearest the outside edge of the board, and the primary trigger jumpers are near the trigger conditioner socket.
 ## UA4C
 The Under Arduino Four Channel was designed to be as small as possible wile still using a standard off the shelf Arduino MEGA and Hammond extruded enclosure. This was achieved by using SMD components and placing the Arduino upside-down on top of the PCB. The unique stacking arrangement allows the unit to be particularly thin for a unit that still uses a separate Arduino MEGA. It is a 4+4 board that incorporates the follow features.
 - Four injector channels
