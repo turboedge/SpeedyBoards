@@ -12,7 +12,7 @@ The latest ECU designed by WTMtronics builds on the UA4C that came before it, an
 
 The reset button was added as the only reset connection made to the microcontroller to prevent unwanted resets from USB connected devices. There is a caveat to this arrangement though. While the first time a firmware is loaded it will go on without intervention, subsequent times will require the user to hold the reset button down then release the button when the program starts the upload process.
 
-The Ocelot uses the Silicon Labs CP2102N USB to UART controller chip. Most modern computers will detect and automatically load a driver for the COM port. If you are not getting the COM port, then you can download drivers from their website [Silicon Labs Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers)
+The Ocelot uses the Silicon Labs CP2102N USB to UART controller chip. Most modern computers will detect and automatically load a driver for the COM port. If you are not getting the COM port, then you can download drivers from their website [Silicon Labs Drivers](https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers).
 
 Latest version: A3 *First release
 ### Errata
@@ -32,7 +32,7 @@ The Under Arduino Four Channel was designed to be as small as possible wile stil
 - MAP and baro sensor onboard
 - Two GPIO connections that breakout inside the case
 
-Latest version: C5
+Latest version: C6
 
 *Knock is currently unsupported in the firmware. Either input can be used for VSS.
 ## NO2C
